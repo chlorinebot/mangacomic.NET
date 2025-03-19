@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mangacomic.NET\\mangacomic.NET.csproj": {}
+    "D:\\mangacomic.NET\\MangaComic.csproj": {}
   },
   "projects": {
-    "D:\\mangacomic.NET\\mangacomic.NET.csproj": {
+    "D:\\mangacomic.NET\\MangaComic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mangacomic.NET\\mangacomic.NET.csproj",
-        "projectName": "mangacomic.NET",
-        "projectPath": "D:\\mangacomic.NET\\mangacomic.NET.csproj",
+        "projectUniqueName": "D:\\mangacomic.NET\\MangaComic.csproj",
+        "projectName": "MangaComic",
+        "projectPath": "D:\\mangacomic.NET\\MangaComic.csproj",
         "packagesPath": "C:\\Users\\Kim Tuan\\.nuget\\packages\\",
         "outputPath": "D:\\mangacomic.NET\\obj\\",
         "projectStyle": "PackageReference",
@@ -44,6 +44,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

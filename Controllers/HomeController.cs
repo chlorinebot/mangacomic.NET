@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using mangacomic.NET.Models;
+using MangaComic.Models;
 
-namespace mangacomic.NET.Controllers;
+namespace MangaComic.Controllers;
 
 public class HomeController : Controller
 {

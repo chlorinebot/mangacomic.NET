@@ -1,4 +1,4 @@
-namespace mangacomic.NET.Models;
+namespace MangaComic.Models;
 
 public class ErrorViewModel
 {
